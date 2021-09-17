@@ -80,11 +80,7 @@ h1 {
 
 /*///////////////// PROJECTS SECTION ///////////////////////////*/
 .desktop-img {
-    width: 500px;
-}
-
-.mobile-img {
-    width:100px;
+    width: 400px;
 }
 
 #projects {
