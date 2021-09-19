@@ -1,0 +1,65 @@
+/* navbar for desktop layout*/
+nav {
+  justify-content: space-around;
+  padding: 1.25em 0 1.25em 0;
+  background-color: #7209b7;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#name, #nav-links > a {
+  padding: 0 1.5em 0 1.5em;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+#hamburger {
+  display: none;
+}
+
+/* navbar for mobile laayout */
+@media screen and (max-width: 600px) {
+    #nav-links a {
+        display: block;
+        width: 100%;
+        border-top: 1px solid blue;
+    }
+
+    nav #hamburger {
+        display: inline;
+        font-size: 3em;
+    }
+
+    #nav-links {
+        display: none;
+    }
+
+    #nav-items{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    #hamburger {
+        padding-left: 0.5em;
+    }
+
+    #hamburger:hover {
+        cursor: pointer;
+    }
+
+    #name {
+        padding: 0 1em 0 1em;
+    }
+
+    #nav-links > a {
+      padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+}
