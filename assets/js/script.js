@@ -5,9 +5,8 @@ hamburger.addEventListener('click', e => handleHamburger(e));
 function handleHamburger(e) {
     e.preventDefault();
     const navLinks = document.querySelector('#nav-links');
-    if (navLinks.style.display === 'none') {
-        navLinks.style.display = 'block';
-    } else {
-        navLinks.style.display = 'none';
-    }
+
+    navLinks.classList.contains('d-none-sm')
+    ? navLinks.classList.replace('d-none-sm', 'flex-col')
+    : navLinks.classList.replace('flex-col', 'd-none-sm');
 }
