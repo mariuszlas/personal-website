@@ -6,6 +6,9 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
         <link rel="stylesheet" href="./assets/css/navbar.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/header.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/skillsSection.css" type="text/css" />
+        <link rel="stylesheet" href="./assets/css/projectSection.css" type="text/css" />
         <link rel="stylesheet" href="./assets/icons/css/all.css" />
         <script defer src="./assets/js/script.js"></script>
         <title>Mariusz Las</title>
@@ -17,22 +20,22 @@
             <span id="hamburger" class="d-none">&#9776;</span>
             <span id="name">Mariusz Las</span>
         </div>
-        <div id="nav-links" class="flex">
+        <div id="nav-links" class="flex d-none-sm" >
             <a class="nav-font" href="#top">Home</a>
             <a class="nav-font" href="#projects">Projects</a>
             <a href="https://github.com/mariuszlas" target="_blank"><i class="bi bi-github"></i></a>
         </div>
     </nav>
 
-    <header id="top">
-      <div id="intro">
-        <h1>Hi, I'm Mariusz</h1>
-        <h2>Trainee Full Stack Developer</h2>
-      </div>
-      <div id="about">
-        <p>About me</p>
-        <p>I am ...</p>
-      </div>
+    <header id="top" >
+        <div id="intro">
+            <h1>Hi, I'm<br>Mariusz</h1>
+            <h2>Trainee Full Stack Developer</h2>
+        </div>
+        <div id="about">
+            <p>About me</p>
+            <p>I am ...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula arcu nulla, ut ultrices sem iaculis quis. Quisque ultricies arcu eu pellentesque tempus. Etiam auctor suscipit sagittis. Donec tincidunt nulla id scelerisque consectetur. Nunc suscipit ultrices quam vestibulum commodo. Vestibulum sed facilisis turpis. Donec eu auctor sapien, at molestie ex. Curabitur quis lacinia nunc. Nulla mattis viverra metus, id rutrum quam eleifend eget. Duis in tincidunt libero. Maecenas cursus, libero in congue maximus, metus diam sagittis diam, eu rutrum felis mauris eget lacus. </p>
+        </div>
     </header>
 
     <main>
@@ -73,7 +76,8 @@
             <a class="project-name" href="https://github-repo-tracker-delta.vercel.app/" target="_blank">GitHub Repo Tracker</a>
             <a href="https://github.com/mariuszlas/github_repo_tracker" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </div>
-          <img class="desktop-img" src="./assets/img/github_repo_tracker.png" alt="github_repo_tracker screenshot"/>
+          <p class="description">View details about all of your public GitHub repos</p>
+          <div class="desktop-img"><img src="./assets/img/github_repo_tracker.png" alt="github_repo_tracker screenshot"/></div>
           <div class="tags">
             <span class="tag">Group Project</span>
             <span class="tag">HTML & CSS</span>
@@ -83,7 +87,6 @@
             <span class="tag">Jest</span>
             <span class="tag">React Testing Library</span>
           </div>
-          <p class="Description">View details about all of your public GitHub repos</p>
         </article>
 
         <article>
@@ -91,7 +94,8 @@
             <a class="project-name" href="https://haikhoo.netlify.app/" target="_blank" >HaikHoo</a>
             <a href="https://github.com/mariuszlas/HaikHoo" target="_blank"><i class="fab fa-github fa-2x"></i></a>
           </div>
-          <img class="desktop-img" src="./assets/img/haikhoo.png" alt="haikhoo screenshot"/>
+          <p class="description">A community journaling website for poets</p>
+          <div class="desktop-img"><img src="./assets/img/haikhoo.png" alt="haikhoo screenshot"/></div>
           <div class="tags">
             <span class="tag">Group Project</span>
             <span class="tag">HTML & CSS</span>
@@ -100,8 +104,29 @@
             <span class="tag">Node.js</span>
             <span class="tag">Jest</span>
           </div>
-          <p class="Description">A community journaling website for poets</p>
         </article>
+
+        <article>
+          <div class="project-header">
+            <a class="project-name" href="https://countdown-quizzz.netlify.app/" target="_blank" >Countdown</a>
+            <a href="https://github.com/mariuszlas/Countdown" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          </div>
+          <p class="description">An online multiplayer quiz game</p>
+          <div class="desktop-img"><img src="./assets/img/countdown.png" alt="countdown screenshot"/></div>
+          <div class="tags">
+            <span class="tag">Group Project</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Websocket</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">OpenTrivia DB</span>
+            <span class="tag">React</span>
+            <span class="tag">Redux</span>
+            <span class="tag">Jest</span>
+            <span class="tag">React Testing Library</span>
+          </div>
+        </article>
+
       </section>
     </main>
 
